@@ -1,0 +1,24 @@
+* th.zig
+A WIP Theora decoder, written in Zig. I hope to finish it this year, it's a
+first for me.
+
+** Roadmap
+*** TODO Parser
+- [X] Bit-packing [1/1]
+  - [X] Reader
+- [-] Headers [2/3]
+  - [X] Identification header
+  - [X] Comment header
+  - [-] Setup header [3/4]
+    - [X] Decode Loop filter limits
+    - [X] Decode Quantization parameters
+    - [ ] Decoder DCT Token Huffman tables
+    - [X] Quantization matrix computation
+- [ ] Frame [0/1]
+  - [ ]
+
+*** TODO Decoder
+
+*** TODO Ogg Demuxer
+
+*** TODO Testing
